@@ -5,15 +5,13 @@ body {
 
 .outerbox {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  position: relative;
   justify-content: center;
-  margin: 30px;
-  padding: 30px;
 }
 
 #question {
   background-color: yellow;
-  justify-content: center;
   text-align: center;
   display: inline-block;
   position: relative;
@@ -21,16 +19,15 @@ body {
   width: 200px;
   font-size: 14rem;
   color: red;
-  margin: auto;
+  margin: 0;
   padding: 30px;
   line-height: 200px;
 }
 
 #letter {
-  font-size: 11rem;
+  font-size: 14rem;
   color: red;
-  margin: 20px;
-  margin-top: 10px;
+  margin: 0;
   padding: 30px;
   line-height: 100px;
 }
@@ -42,11 +39,14 @@ body {
   position: relative;
   height: 200px;
   width: 200px;
-  font-size: 5rem;
+  font-size: 8rem;
   color: red;
-  margin: auto;
+  margin: 0;
   padding: 30px;
-  line-height: 100px;
+  padding-top: 30px;
+  line-height: 160px;
+  margin-left: 50px;
+  justify-content: center;
 }
 
 #input {
@@ -59,28 +59,15 @@ body {
   text-align: center;
 }
 
-/* .input {
+input {
   padding: 20px;
   justify-content: center;
   margin: 20px;
   text-align: center;
   font-size: 1.25em;
-} */
+}
 
 button {
   background-color: greenyellow;
   padding: 10px;
-  margin: 10px;
-}
-
-@media only screen and (min-width: 750px) {
-  .input {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .outerbox {
-    display: flex;
-    flex-direction: row;
-  }
 }
