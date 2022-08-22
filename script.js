@@ -35,6 +35,7 @@ var alphabet = {
   '?': '?',
   ',': ',',
   '.': '.',
+  ' ': ' ',
   ა: 'a',
   ბ: 'b',
   გ: 'g',
@@ -71,6 +72,7 @@ var alphabet = {
   '?': '?',
   ',': ',',
   '.': '.',
+  ' ': ' ',
 };
 
 function generate() {
@@ -81,8 +83,8 @@ function generate() {
 }
 
 function compare() {
-  var output1 = 'Well done!';
-  var output2 = 'Try again';
+  var output1 = '😁';
+  var output2 = '😢';
 
   var question = document.getElementById('letter').innerHTML;
   var inputValue = document.getElementById('reply').value;
