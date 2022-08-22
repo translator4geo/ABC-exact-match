@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(224, 217, 217);
+  margin: 30px;
+}
+
+.outerbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+  padding: 30px;
+}
+
+#question {
+  background-color: yellow;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  font-size: 14rem;
+  color: red;
+  margin: auto;
+  padding: 30px;
+  line-height: 200px;
+}
+
+#letter {
+  font-size: 14rem;
+  color: red;
+  margin: 20px;
+  margin-top: 10px;
+  padding: 30px;
+  line-height: 100px;
+}
+
+#emoji {
+  background-color: rgb(174, 174, 173);
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  font-size: 5rem;
+  color: red;
+  margin: auto;
+  padding: 30px;
+  line-height: 100px;
+}
+
+#input {
+  margin: 50px;
+  display: block;
+  height: 100px;
+  background-color: rgb(129, 188, 211);
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .input {
+  padding: 20px;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+  font-size: 1.25em;
+} */
+
+button {
+  background-color: greenyellow;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 750px) {
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .outerbox {
+    display: flex;
+    flex-direction: row;
+  }
+}
