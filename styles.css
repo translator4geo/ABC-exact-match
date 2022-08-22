@@ -5,9 +5,10 @@ body {
 
 .outerbox {
   display: flex;
-  flex-direction: row;
-  position: relative;
+  flex-direction: column;
+  padding: 20px;
   justify-content: center;
+  margin: auto;
 }
 
 #question {
@@ -19,7 +20,7 @@ body {
   width: 200px;
   font-size: 14rem;
   color: red;
-  margin: 0;
+  margin: 30px;
   padding: 30px;
   line-height: 200px;
 }
@@ -41,18 +42,18 @@ body {
   width: 200px;
   font-size: 8rem;
   color: red;
-  margin: 0;
+  margin: 30px;
   padding: 30px;
-  padding-top: 30px;
+
   line-height: 160px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   justify-content: center;
 }
 
 #input {
   margin: 50px;
   display: block;
-  height: 100px;
+  height: 200px;
   background-color: rgb(129, 188, 211);
   padding: 30px;
   justify-content: center;
@@ -61,6 +62,7 @@ body {
 
 input {
   padding: 20px;
+  width: 150px;
   justify-content: center;
   margin: 20px;
   text-align: center;
@@ -70,4 +72,40 @@ input {
 button {
   background-color: greenyellow;
   padding: 10px;
+}
+
+@media only screen and (min-width: 750px) {
+  .outerbox {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+  }
+
+  #emoji {
+    background-color: rgb(174, 174, 173);
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    font-size: 8rem;
+    color: red;
+    margin: 30px;
+    padding: 30px;
+    padding-top: 30px;
+    line-height: 160px;
+    margin-left: 50px;
+    justify-content: center;
+  }
+
+  #input {
+    margin: 50px;
+    display: block;
+    height: 100px;
+    background-color: rgb(129, 188, 211);
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+  }
 }
