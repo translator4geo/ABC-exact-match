@@ -13,6 +13,7 @@ body {
 
 #question {
   background-color: yellow;
+  justify-content: center;
   text-align: center;
   display: inline-block;
   position: relative;
