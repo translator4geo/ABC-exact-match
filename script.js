@@ -35,7 +35,6 @@ var alphabet = {
   '?': '?',
   ',': ',',
   '.': '.',
-  ' ': ' ',
   ა: 'a',
   ბ: 'b',
   გ: 'g',
@@ -72,8 +71,7 @@ var alphabet = {
   '?': '?',
   ',': ',',
   '.': '.',
-  ' ': ' ',
-};
+ };
 
 function generate() {
   const keys = Object.keys(alphabet);
