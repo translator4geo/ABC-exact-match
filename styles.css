@@ -62,11 +62,12 @@ p {
   padding: 30px;
   justify-content: center;
   text-align: center;
+  font-size: 10px;
 }
 
 input {
   padding: 20px;
-  width: 150px;
+  width: 70px;
   justify-content: center;
   margin: 20px;
   text-align: center;
